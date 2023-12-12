@@ -5,7 +5,7 @@ export const TrustAndSafety = () => {
     <>
       <div>
         <img
-          className="mx-auto"
+          className=" mx-auto"
           src="src\components\TrustAndSafety\assets\Frame34724.png"
           alt="Logo frame"
         />
@@ -19,9 +19,11 @@ export const TrustAndSafety = () => {
         />
       </section>
 
-      <section className="my-20">
-        <div className=" w-[68%] mx-auto">
-          <h5 className="text-[20px] py-5">HOW WE PROTECT OUR USERS SAFETY</h5>
+      <section className="my-20 px-10">
+        <div className=" max-w-5xl mx-auto">
+          <h5 className="text-sm sm:text-md md:text-lg lg:text-xl py-5">
+            HOW WE PROTECT OUR USERS SAFETY
+          </h5>
           <div className="flex gap-10">
             <div className="bg-[#000000] py-8 flex flex-col items-end gap-5 rounded-md px-5 text-white">
               <div className=" flex w-full">
@@ -31,11 +33,11 @@ export const TrustAndSafety = () => {
                     alt=""
                   />
                 </span>
-                <p className="text-sm  ml-[5%]">
+                <p className="text-xs sm:text-sm md:text-md lg:text-lg ml-[5%]">
                   ADVANCED TECHNOLOGY & EXPERTS KEEPING YOU SAFE
                 </p>
               </div>
-              <p className="text-sm w-[90%] relative ">
+              <p className="text-xs md:text-sm lg:text-md w-[90%] relative ">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
                 penatibus et magnis dis parturient montes, nascetur ridiculus
@@ -53,11 +55,11 @@ export const TrustAndSafety = () => {
                     alt=""
                   />
                 </span>
-                <p className="text-sm ml-[5%]">
+                <p className="text-xs sm:text-sm md:text-md lg:text-lg ml-[5%]">
                   SECURING YOUR PAYMENTS & IDENTITY
                 </p>
               </div>
-              <p className="text-sm relative ">
+              <p className="text-xs md:text-sm lg:text-md w-[90%] relative ">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa. Cum sociis natoque
                 penatibus et magnis dis parturient montes, nascetur ridiculus
@@ -71,8 +73,8 @@ export const TrustAndSafety = () => {
         </div>
       </section>
 
-      <section className="mt-20 py-20 bg-[#F8F8F8]">
-        <div className="flex w-[68%] gap-10 mx-auto">
+      <section className="mt-20 py-20 bg-[#F8F8F8] px-10">
+        <div className="flex max-w-5xl gap-10 mx-auto">
           <div className="flex gap-1 w-[50%]">
             <span className="w-[71%]">
               <img
@@ -92,10 +94,10 @@ export const TrustAndSafety = () => {
             </div>
           </div>
           <div className="w-[50%]">
-            <p className="text-sm">
+            <p className="text-xs sm:text-sm md:text-md lg:text-lg">
               SAFEST & TRUSTED PLACE TO HELP AND BE HELPED
             </p>
-            <p className="text-sm py-2">
+            <p className="text-xs sm:text-sm md:text-md py-2">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -108,8 +110,8 @@ export const TrustAndSafety = () => {
         </div>
       </section>
 
-      <section className="mb-20 bg-[#43C4B2] text-white py-32">
-        <div className="flex w-[68%] mx-auto gap-10">
+      <section className="mb-20 bg-[#43C4B2] text-white py-32 px-10">
+        <div className="flex max-w-5xl mx-auto gap-10">
           <div className="w-3/6">
             <div className="flex  gap-3 pb-3">
               <span>
@@ -118,11 +120,11 @@ export const TrustAndSafety = () => {
                   alt=""
                 />
               </span>
-              <h5 className="text-md  md:text-lg">
+              <h5 className="text-xs sm:text-sm md:text-md lg:text-lg md:text-lg">
                 is there for you in times of crisis
               </h5>
             </div>
-            <p className="text-md  md:text-md ">
+            <p className="text-xs md:text-sm lg:text-md  md:text-md ">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor. Aenean massa. Cum sociis natoque
               penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -167,8 +169,8 @@ export const TrustAndSafety = () => {
         </div>
       </section>
 
-      <section className="my-40">
-        <div className="w-[450px] mx-auto">
+      <section className="my-40 px-10">
+        <div className="max-w-md mx-auto">
           <div className="flex">
             <span>
               <img

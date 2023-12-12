@@ -10,8 +10,8 @@ export const Pricing = () => {
         <span>pricing</span>
       </div>
 
-      <div className="w-[35%] mx-auto my-20">
-        <h5 className="text-[30px] text-[#808080]">
+      <div className="max-w-xl mx-auto my-20">
+        <h5 className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl  text-[#808080]">
           As we embark on this journey together, transparency and honesty are at
           the heart of our mission.
         </h5>
@@ -23,24 +23,29 @@ export const Pricing = () => {
           src="src\components\Pricing\assets\Rectangle 154.png"
           alt=""
         />
-        <div className="absolute w-max h-40 flex gap-3 items-center text-white top-1/2 left-[60%] transform -translate-x-1/2 -translate-y-1/2">
-          <div className="flex w-[30%]  flex-col">
-            <span className="text-md">NO FEE TO CREATE AN IMPACT STORY</span>
-            <span className="text-[#43C4B2] text-[40px] font-bold">$0.00</span>
-            <span className="text-sm">
-              There’s no fees charged to charged to Angels on the TOPMe platform
-            </span>
-          </div>
-          <div className="h-[60%] border border-[#808080]"></div>
-          <div className="flex w-[30%] flex-col">
-            <span className="text-md">
-              ONE-TIME TRANSACTION FEE PER DONATION
-            </span>
-            <span className="text-[#43C4B2] text-[40px] font-bold">2.9%</span>
-            <span className="text-sm">
-              Automated deductions cover payment gateway fees and operational
-              costs from each donation.
-            </span>
+        <div className="absolute w-full h-full flex gap-3 items-center text-white top-0">
+          <div className="flex h-40 items-center border mx-auto w-max justify-center gap-5">
+            <div className="flex w-[30%]  flex-col">
+              <span className="text-md">NO FEE TO CREATE AN IMPACT STORY</span>
+              <span className="text-[#43C4B2] text-[40px] font-bold">
+                $0.00
+              </span>
+              <span className="text-sm">
+                There’s no fees charged to charged to Angels on the TOPMe
+                platform
+              </span>
+            </div>
+            <div className="h-[60%] border border-[#808080]"></div>
+            <div className="flex w-[30%] flex-col">
+              <span className="text-md">
+                ONE-TIME TRANSACTION FEE PER DONATION
+              </span>
+              <span className="text-[#43C4B2] text-[40px] font-bold">2.9%</span>
+              <span className="text-sm">
+                Automated deductions cover payment gateway fees and operational
+                costs from each donation.
+              </span>
+            </div>
           </div>
         </div>
       </section>

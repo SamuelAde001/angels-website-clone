@@ -12,14 +12,14 @@ export const HowItWorks = () => {
       </div>
 
       <div className="w-[68%] mx-auto text-[#808080] my-20">
-        <h2 className="text-[40px] text-center">
+        <h2 className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-center">
           TOPMe Angels, the modern-day Good Samaritans, Playing the role of
           individual NGOs, they initiate and lead causes that address pressing
           needs around them.
         </h2>
       </div>
 
-      <div className="w-max mx-auto">
+      <div className="w-max mx-auto px-10">
         <img
           className="w-[600px] border-2 border-black rounded-md
           "
@@ -28,15 +28,15 @@ export const HowItWorks = () => {
         />
       </div>
 
-      <section className="mt-20 bg-black text-white py-32">
-        <div className="flex w-[68%] mx-auto gap-10">
+      <section className="mt-20 bg-black text-white py-32 px-10">
+        <div className="flex max-w-5xl mx-auto gap-10">
           <div className="w-3/6">
             <div className=" pb-3">
-              <h5 className="text-md  md:text-lg">
+              <h5 className="text-xs sm:text-sm md:text-md lg:text-lg">
                 Support Angels: Unleash Impact
               </h5>
             </div>
-            <p className="text-md  md:text-md ">
+            <p className="text-xs sm:text-sm md:text-md lg:text-lg ">
               Our angels drive change by identifying causes, rallying donors,
               and crafting impactful stories on the TOPME platform. While
               donations directly aid those in need, angels often face personal
@@ -80,7 +80,7 @@ export const HowItWorks = () => {
       </section>
 
       <section className="bg-[#F3F3F3]">
-        <p className="w-[600px] mx-auto py-32 text-center text-lg">
+        <p className="max-w-xl mx-auto py-32 text-center text-lg">
           Remember, Topme views Angels as individual NGOs, and the platform aims
           to provide an opportunity for people already making efforts to help
           others in their community. By following these steps, Angels and donors
