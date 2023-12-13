@@ -12,11 +12,12 @@ export const TrustAndSafety = () => {
       </div>
 
       <section className="my-20">
-        <img
-          className="mx-auto w-[70%] aspect-auto"
-          src="src\components\TrustAndSafety\assets\Rectangle155.png"
-          alt="image"
-        />
+        <div className="mx-auto max-w-5xl aspect-auto px-10">
+          <img
+            src="src\components\TrustAndSafety\assets\Rectangle155.png"
+            alt="image"
+          />
+        </div>
       </section>
 
       <section className="my-20 px-10">

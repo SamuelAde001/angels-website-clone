@@ -19,9 +19,9 @@ export const HowItWorks = () => {
         </h2>
       </div>
 
-      <div className="w-max mx-auto px-10">
+      <div className="max-w-5xl mx-auto px-10">
         <img
-          className="w-[600px] border-2 border-black rounded-md
+          className=" mx-auto border-2 border-black rounded-md
           "
           src="src\components\HowItWorks\assets\Rectangle 151.png"
           alt=""

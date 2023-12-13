@@ -23,25 +23,27 @@ export const Pricing = () => {
           src="src\components\Pricing\assets\Rectangle 154.png"
           alt=""
         />
-        <div className="absolute w-full h-full flex gap-3 items-center text-white top-0">
-          <div className="flex h-40 items-center border mx-auto w-max justify-center gap-5">
-            <div className="flex w-[30%]  flex-col">
-              <span className="text-md">NO FEE TO CREATE AN IMPACT STORY</span>
+        <div className="absolute w-full h-full flex gap-3 items-center px-10 text-white top-0">
+          <div className="flex h-40 items-center  mx-auto max-w-3xl justify-center gap-5">
+            <div className="flex w-[50%]  flex-col">
+              <span className="text-xs sm:text-sm md:text-md ">
+                NO FEE TO CREATE AN IMPACT STORY
+              </span>
               <span className="text-[#43C4B2] text-[40px] font-bold">
                 $0.00
               </span>
-              <span className="text-sm">
+              <span className="text-xs md:text-sm lg:text-md">
                 There’s no fees charged to charged to Angels on the TOPMe
                 platform
               </span>
             </div>
             <div className="h-[60%] border border-[#808080]"></div>
-            <div className="flex w-[30%] flex-col">
-              <span className="text-md">
+            <div className="flex w-[50%] flex-col">
+              <span className="text-xs sm:text-sm md:text-md ">
                 ONE-TIME TRANSACTION FEE PER DONATION
               </span>
               <span className="text-[#43C4B2] text-[40px] font-bold">2.9%</span>
-              <span className="text-sm">
+              <span className="text-xs md:text-sm lg:text-md">
                 Automated deductions cover payment gateway fees and operational
                 costs from each donation.
               </span>
@@ -50,12 +52,12 @@ export const Pricing = () => {
         </div>
       </section>
 
-      <section>
-        <div className="w-[50%] mx-auto flex">
-          <div className="w-1/2 text-2xl">
+      <section className="px-10">
+        <div className="max-w-3xl  mt-20 mx-auto gap-5 flex">
+          <div className="w-1/2 text-md sm:text-lg md:text-xl lg:text-2xl">
             Transparent Donations with Nominal Fees
           </div>
-          <div className="w-1/2 space-y-5 text-sm">
+          <div className="w-1/2 space-y-5 text-xs sm:text-sm md:text-md lg:text-lg">
             <p>
               At Topme, we're dedicated to optimizing the impact of your
               donations while upholding the platform's sustainability.
@@ -81,9 +83,9 @@ export const Pricing = () => {
         </div>
       </section>
 
-      <section className="my-20 text-right">
-        <div className="w-[50%] mx-auto flex  border-y-2 py-20">
-          <div className="w-1/2 space-y-5 text-sm">
+      <section className="my-20 text-right px-10">
+        <div className="max-w-3xl gap-5 mx-auto flex  border-y-2 py-20">
+          <div className="w-1/2 space-y-5 text-xs sm:text-sm md:text-md lg:text-lg">
             <p>
               On the Topme platform, raised donations are sent directly to those
               in need. You have the option to donate directly to our Angels as
@@ -95,30 +97,30 @@ export const Pricing = () => {
               continues even when personal resources may be limited.
             </p>
           </div>
-          <div className="w-1/2 text-2xl">
+          <div className="w-1/2 text-md sm:text-lg md:text-xl lg:text-2xl">
             Empower Angels: Direct Support for Their Impactful Work
           </div>
         </div>
       </section>
 
-      <section>
-        <div className="w-[58%] mx-auto  flex">
-          <div className="w-1/2 text-2xl">
+      <section className="px-10">
+        <div className="max-w-3xl mx-auto gap-5 flex">
+          <div className="w-1/2 text-md sm:text-lg md:text-xl lg:text-2xl">
             Everything you need to be an Angel
           </div>
-          <div className="w-1/2 text-md">
+          <div className="w-1/2  text-xs sm:text-sm md:text-md lg:text-lg">
             <p>
               You can become an Angel and create an impact in your community
               today
             </p>
             <div className="flex gap-5 my-5 text-sm">
-              <button className="bg-[#43C4B2] p-2  flex gap-3  text-white">
+              <button className="bg-[#43C4B2] p-2  justify-center text-xs  sm:text-md items-center flex gap-3  text-white">
                 <span>Become an angel</span>
                 <span>
                   <img src="src\components\Pricing\assets\Icon.png" alt="" />
                 </span>
               </button>
-              <button className="border p-2 border-black flex gap-3">
+              <button className="border p-2 border-black justify-center  text-xs  sm:text-md items-center flex gap-3">
                 <span>Contact support</span>
                 <span>
                   <img
